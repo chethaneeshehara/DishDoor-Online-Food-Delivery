@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Contact us.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src=".\images\fd-logo.png" alt="DishDoor Logo">
+            <h1>DishDoor ONLINE FOOD DELIVERY</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href=".\FD.html">Home</a></li>
+                <li><a href=".\Contact us.html">Contact Us</a></li>
+                <li><a href=".\cart.html">Cart</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main style="background-image: url('images/bg4.jpg');">
+    
+        <section class="contact-section">
+            <h2>How Can We Help?</h2>
+            <p>We're here to help and answer any question you might have.We look forward hearing from you.</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> dishdoorfooddelivery@gmail.com</li>
+                <li><strong>Phone:</strong> 011-2345678</li>
+                <li><strong>Address:</strong> DishDoor Resturant,280 Old Moor Street, Colombo 12</li>
+                <h3>Hours: Mon-Sun 9.00am-10.30pm</h3>
+            </ul>
+
+            <form class="contact-form" action="submit_form.php" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Adress & Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    
+</body>
+</html>
